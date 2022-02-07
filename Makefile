@@ -3,12 +3,12 @@ install:
 		pip install -r requirements.txt
 
 test:
-	python -m pytest -vv test_add.py
+	python -m pytest -vv testadd.py testfastapi.py
 
 format:
 	black *.py
 
 lint:
-	pylint --disable=R,C main.py
+	pylint --disable=R,C mainflask.py mainfastapi.py
 
 all: install lint
