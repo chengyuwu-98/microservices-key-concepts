@@ -1,7 +1,6 @@
 import pytest
 from flask import Flask
-
-app = Flask(__name__)
+from mainflask import app
 
 
 
@@ -14,4 +13,4 @@ def client():
 
 def test_main(client):
     rv = client.get("/")
-    assert {"message": "Hello"} == rv.data
+    assert  rv.json== {"message": "Hello"}
