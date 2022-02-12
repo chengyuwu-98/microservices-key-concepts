@@ -6,3 +6,4 @@ pylint==2.12.2
 uvicorn==0.17.4
 requests
 gunicorn
+locust
