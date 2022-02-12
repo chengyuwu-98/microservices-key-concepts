@@ -13,7 +13,7 @@
    secretEnv: ['USERNAME']
  availableSecrets:
    secretManager:
-   - versionName: projects/fastapi-340818/secrets/Wcy505823098/versions/Wcy505823098
+   - versionName: projects/595528609850/secrets/Wcy505823098/versions/Wcy505823098
      env: 'PASSWORD'
-   - versionName: projects/fastapi-340818/secrets/cw441/versions/cw441
+   - versionName: projects/595528609850/secrets/cw441/versions/cw441
      env: 'USERNAME'
