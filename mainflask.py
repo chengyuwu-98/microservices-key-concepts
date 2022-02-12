@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return {"message": "Hello"}
+    return {"message": "Hello2"}
 
 @app.route("/add/<num1>/<num2>")
 def adder(num1, num2):
